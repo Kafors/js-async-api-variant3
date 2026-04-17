@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+#movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 15px;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+#loader {
+  font-size: 20px;
+  color: blue;
+}

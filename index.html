@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>🎬 Movie Search</h1>
+
+<input type="text" id="searchInput" placeholder="Search movies...">
+
+<div id="filters">
+  <input type="number" id="yearFilter" placeholder="Year">
+  <input type="number" id="ratingFilter" placeholder="Min Rating">
+</div>
+
+<div id="movies"></div>
+
+<h2>⭐ Watchlist</h2>
+<div id="watchlist"></div>
+
+<div id="loader" class="hidden">Loading...</div>
+<div id="error"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
